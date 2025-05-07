@@ -1,7 +1,7 @@
-<script setup lang="ts">
-import { sendButton } from '@/components/ui/button'
+<script setup>
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <sendButton>123</sendButton>
+  <Footer />
 </template>
