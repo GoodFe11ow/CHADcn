@@ -55,7 +55,7 @@
 
             </div>
             <div class="flex flex-row flex-wrap gap-8 justify-between max-w-[1280px] w-full ml-auto mr-auto">
-                <img src="" alt="Footer logo">
+                <img src="/public/footerLogo.png" alt="Footer logo">
                 <p class="font-normal text-[#667085] text-base leading-6 tracking-normal font-[Plus Jakarta Sans]">
                     © 2077 Mainnet Design. All rights reserved.
                 </p>            
