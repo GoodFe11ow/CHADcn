@@ -1,6 +1,6 @@
 <script setup>
-import logo from '../assets/Crowdly.png'
-import { Input } from '@/components/ui/input'
+  import logo from '../assets/Crowdly.png'
+  import { Input } from '@/components/ui/input'
 </script>
 
 <template>
@@ -11,10 +11,10 @@ import { Input } from '@/components/ui/input'
       <img :src="logo" alt="Crowdfy Logo" class="w-7 h-6" />
       <span class="font-bold text-lg">Crowdfy</span>
       </div>
-      <a href="#" class="text-gray-500 hover:text-black">Home</a>
-      <a href="#" class="text-gray-500 hover:text-black">Explore</a>
-      <a href="#" class="text-gray-500 hover:text-black">Campaigns</a>
-      <a href="#" class="text-gray-400 hover:text-black">Profile</a>
+      <router-link to="/" class="cursor-pointer text-gray-500 hover:text-black">Home</router-link>
+      <router-link to="/explore" class="cursor-pointer text-gray-500 hover:text-black">Explore</router-link>
+      <router-link to="/campaigns" class="cursor-pointer text-gray-500 hover:text-black">Campaigns</router-link>
+      <router-link to="/profile" class="cursor-pointer text-gray-400 hover:text-black">Profile</router-link>
     </nav>
 
     <!-- Icons Section -->

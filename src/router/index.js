@@ -2,11 +2,13 @@ import { createWebHistory, createRouter } from 'vue-router';
 import Home from '../Views/Home.vue';
 import Explore from '../Views/Explore.vue'
 import Campaing from '../Views/Campaing.vue';
+import Profile from '../Views/Profile.vue'
 
 const routes = [
+  { path: '/', component: Home },
   { path: '/campaing', component: Campaing },
   { path: '/explore', component: Explore },
-  { path: '/', component: Home },
+  { path: '/profile', component: Profile},
 ]
 const router = createRouter({
   history: createWebHistory(),
