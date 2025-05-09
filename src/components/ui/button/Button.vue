@@ -11,7 +11,7 @@ interface Props extends PrimitiveProps {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  as: 'sendbutton',
+  as: 'button',
 })
 </script>
 
@@ -24,4 +24,7 @@ const props = withDefaults(defineProps<Props>(), {
   >
     <slot />
   </Primitive>
+  
 </template>
+
+
