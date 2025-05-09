@@ -7,4 +7,8 @@ import { Home } from 'lucide-vue-next';
 
 <template>
   <Home/>
+  <Header />
+  <Footer />
+  <Explore />
+
 </template>
