@@ -1,3 +1,5 @@
+<script>
+</script>
 <template>
     <div class="bg-[#F1F5F9] min-h-[418px] flex absolute w-full bottom-0">
         <div class="flex flex-col justify-evenly gap-[50px] w-full pl-[32px] pr-[32px] ">
