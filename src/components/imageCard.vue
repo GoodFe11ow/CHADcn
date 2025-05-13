@@ -8,13 +8,13 @@ defineProps(['title', 'desc', 'author', 'image', 'percentage', 'price'])
 const parsePercentage = (str) => parseFloat(str.replace('%', ''))
 </script>
 <template>
-    <div class="pr-8 pl-8 flex justify-center">
-        <div class="flex flex-row flex-wrap justify-evenly">
+    <div class="flex justify-center items-center">
+        <div class="p-2 flex justify-center items-center">
             <!-- img card -->
             <div class="flex flex-col gap-4 w-[396px] h-[424px] shadow-sm border border-gray-200 rounded-lg overflow-hidden relative">
                 <!-- img part -->
                 <div> 
-                    <img src="https://picsum.photos/396/176" alt="">
+                    <img :src="image" class="w-[396px] h-[176px] object-cover" />
                     <div class="flex flex-row gap-2 absolute top-33 right-2">
                         <Button variant="imageCard" class="">
                             <i class="fa-solid fa-arrow-up-from-bracket"></i>

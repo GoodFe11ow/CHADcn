@@ -15,10 +15,8 @@ export const buttonVariants = cva(
           'border  bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50',
         secondary:
           'bg-secondary cursor-pointer rounded-none bg-[#F1F5F9] hover:bg-[#e4eaf1]',
-        ghost:
-          'hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50',
         link: 'text-primary underline-offset-4 hover:underline',
-        imageCard: 'w-[42px] h-[42px] gap-2 top-[125px] left-[296px] rounded-[6px] border p-2 bg-white',
+        imageCard: 'w-[42px] h-[42px] gap-2 top-[125px] left-[296px] rounded-[6px] border p-2 bg-white hover:bg-gray-200 cursor-pointer',
       },
       size: {
         default: 'h-9 px-4 py-2 has-[>svg]:px-3',
