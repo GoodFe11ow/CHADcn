@@ -2,7 +2,7 @@
 import { Button } from '@/components/ui/button'
 </script>
 <template>
-  <div class="pr-8 pl-8 flex justify-center">
+  <div class="mr-16 ml-16 flex justify-center">
     <div class="flex flex-row w-full justify-between">
       <div>
         <h4 class="font-inter font-semibold text-[30px] text-[#101828]">Explore</h4>

@@ -2,7 +2,7 @@
 import { Button } from '@/components/ui/button'
 </script>
 <template>
-    <div class="pr-8 pl-8 flex justify-center">
+    <div class=" pb-8 mr-16 ml-16 flex justify-center">
         <div class="flex flex-row w-full justify-between pt-8">
             <div class="flex flex-row w-[341px] h-[40px] overflow-hidden rounded-lg border border-[rgb(226,232,240)]">
                 <Button variant="secondary" class="rounded-none h-10 w-[90px] bg-[#F1F5F9] hover:bg-[#e4eaf1]">
