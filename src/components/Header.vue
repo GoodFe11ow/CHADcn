@@ -1,20 +1,27 @@
 <script setup>
   import logo from '../assets/Crowdly.png'
   import { Input } from '@/components/ui/input'
+
+  import { computed } from 'vue';
+  import { useRoute } from 'vue-router';
+
+  const route = useRoute();
+
+  const isHomePage = computed(() => route.path === '/');
 </script>
 
 <template>
-  <header class="bg-white px-6 py-4 flex justify-between items-center ml-16 mt-5 mr-16 mb-5">
+  <header class="bg-transparent absolute w-full px-6 py-4 flex justify-evenly items-center">
    
-    <nav class="text-sm flex items-center gap-6">
+    <nav class="text-lg flex items-center gap-6">
       <div class="flex items-center gap-2">
-      <img :src="logo" alt="Crowdfy Logo" class="w-7 h-6" />
-      <span class="font-bold text-lg">Crowdfy</span>
+        <img :src="logo" alt="Crowdfy Logo" class="w-7 h-6" />
+        <span class="font-bold text-lg" :class="['py-2 px-4 rounded', isHomePage ? 'text-white' : 'text-gray-700']">Crowdfy</span>
       </div>
-      <router-link to="/" class="cursor-pointer text-gray-500 hover:text-black">Home</router-link>
-      <router-link to="/explore" class="cursor-pointer text-gray-500 hover:text-black">Explore</router-link>
-      <router-link to="/campaigns" class="cursor-pointer text-gray-500 hover:text-black">Campaigns</router-link>
-      <router-link to="/profile" class="cursor-pointer text-gray-400 hover:text-black">Profile</router-link>
+      <router-link to="/" :class="['py-2 px-4 rounded', isHomePage ? 'text-white' : 'text-gray-700']" class="cursor-pointer">Home</router-link>
+      <router-link to="/explore" :class="['py-2 px-4 rounded', isHomePage ? 'text-white' : 'text-gray-700']" class="cursor-pointer">Explore</router-link>
+      <router-link to="/campaigns" :class="['py-2 px-4 rounded', isHomePage ? 'text-white' : 'text-gray-700']" class="cursor-pointer">Campaigns</router-link>
+      <router-link to="/profile" :class="['py-2 px-4 rounded', isHomePage ? 'text-white' : 'text-gray-700']" class="cursor-pointer">Profile</router-link>
     </nav>
 
     <!-- Icons Section -->
@@ -23,7 +30,7 @@
       <button class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
         <i class="fa-solid fa-plus text-gray-600"></i>
       </button>
-      <img src="https://your-avatar-url.com/avatar.png" alt="User" class="w-10 h-10 rounded-full" />
+      <img src="https://github.com/unovue.png" alt="User" class="w-10 h-10 rounded-full" />
       <button class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
         <i class="fa-solid fa-gear text-gray-600"></i>
       </button>
