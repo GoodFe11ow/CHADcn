@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <header class="bg-transparent absolute w-full px-6 py-4 flex justify-evenly items-center">
+  <header class="bg-transparent absolute h-27 w-full px-6 py-4 flex justify-evenly items-center">
    
     <nav class="text-lg flex items-center gap-6">
       <div class="flex items-center gap-2">
