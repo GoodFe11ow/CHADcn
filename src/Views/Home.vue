@@ -1,8 +1,7 @@
 <template>
-    <div>123</div>
+    <homeHero/>
 </template>
 
 <script setup>
-    import Header from '@/components/Header.vue';
-    import Footer from '@/components/Footer.vue';
+    import homeHero from '@/components/homeHero.vue';
 </script>
