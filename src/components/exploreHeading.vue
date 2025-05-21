@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Button } from '@/components/ui/button'
 </script>
+
 <template>
   <div class="mr-16 ml-16 flex justify-center pt-44">
     <div class="flex flex-row w-full justify-between">
