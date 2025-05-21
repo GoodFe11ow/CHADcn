@@ -1,10 +1,12 @@
 <template>
   <favoriteSubheader />
-  <FavoritesHeading />
+  <favoritesHeading />
+  <favoritesGrid />
   <footer />
 </template>
 
 <script setup>
-import FavoritesHeading from '@/components/favoritesHeading.vue';
+import favoritesGrid from '@/components/favoritesGrid.vue';
+import favoritesHeading from '@/components/favoritesHeading.vue';
 import favoriteSubheader from '@/components/favoritesSubheader.vue';
 </script>
