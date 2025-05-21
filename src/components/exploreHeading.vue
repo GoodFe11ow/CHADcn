@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 </script>
 
 <template>
-  <div class="mr-16 ml-16 flex justify-center pt-44">
+  <div class="mr-16 ml-16 flex justify-center pt-10">
     <div class="flex flex-row w-full justify-between">
       <div>
         <h4 class="font-inter font-semibold text-[30px] text-[#101828]">Explore</h4>
