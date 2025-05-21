@@ -1,9 +1,12 @@
-<script setup>
-import Footer from '../components/Footer.vue'
-
-</script>
-
 <template>
-  <Footer />
-
+  <favoriteSubheader />
+  <favoritesHeading />
+  <favoritesGrid />
+  <footer />
 </template>
+
+<script setup>
+import favoritesGrid from '@/components/favoritesGrid.vue';
+import favoritesHeading from '@/components/favoritesHeading.vue';
+import favoriteSubheader from '@/components/favoritesSubheader.vue';
+</script>
