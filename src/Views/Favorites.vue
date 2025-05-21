@@ -1,9 +1,8 @@
-<script setup>
-import Footer from '../components/Footer.vue'
-
-</script>
-
 <template>
-  <Footer />
-
+  <favoriteSubheader />
+  <footer />
 </template>
+
+<script setup>
+import favoriteSubheader from '@/components/favoritesSubheader.vue';
+</script>
