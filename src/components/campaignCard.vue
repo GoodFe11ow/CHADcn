@@ -1,26 +1,26 @@
 <template>
-    <div class="max-w-[90%] bg-white rounded-[12px] mt-6">
+    <div class="max-w-[90%] xl:max-w-[40%] bg-white rounded-[12px] mt-6">
         <div class="flex flex-col items-center px-[3%]">
             <div class="border-b border-solid border-black rounded-full border-2 mt-5 mb-6 w-16"></div>
-            <div class="flex gap-4 mb-5">
-                <Avatar class="w-10 h-10 bg-lime-400">
+            <div class="flex w-full gap-4 mb-5">
+                <Avatar class="w-10 h-10 lg:w-16 lg:h-16 bg-lime-400">
                     <AvatarImage src="/src/assets/emoji.png" class="mt-[3px]" alt="@unovue" />
                     <AvatarFallback>CN</AvatarFallback>
                 </Avatar>
                 <h3 class="font-semibold text-2xl">Help us Teach English for Kids on China Countryside</h3>
             </div>
             <p class="text-gray-600">I need about <span class="font-bold">9.000 signatures</span> to deliver to my mayor in two weeks and get that grant! Check more about our project and if you want to see how we are changing lovely children lifes on China countryside just teaching how they can use the internet.</p>
-            <div class="flex mt-5">
-                <Avatar class="w-8 h-8 bg-lime-400">
+            <div class="flex mt-5 lg:gap-3">
+                <Avatar class="w-8 h-8 lg:w-10 lg:h-10 bg-lime-400">
                     <AvatarImage class="mt-[3px]" src="/src/assets/emoji.png" alt="@unovue" />
                     <AvatarFallback>CN</AvatarFallback>
                 </Avatar>
                 <Badge class="text-gray-600 text-md mr-5">Mateus Rodrigues</Badge>
-                <p class="ml-3 text-md font-medium hidden items-center text-gray-600 "><i class="fa-solid fa-location-dot mr-2 text-gray-400"></i> São Paulo, Brazil</p>
+                <p class="ml-3 xl:mr-20 xl:flex text-md font-medium hidden items-center text-gray-600 "><i class="fa-solid fa-location-dot mr-2 text-gray-400"></i> São Paulo, Brazil</p>
                 <Button class="bg-lime-500 cursor-pointer">Sign campaing</Button>
             </div>
-            <div class="mt-6 flex gap-10 items-center">
-                <div class="hidden items-center">
+            <div class="mt-6 flex gap-10 xl:gap-5 items-center">
+                <div class="hidden xl:flex xl:w-56 items-center">
                     <div class="aspect-square w-6 h-6 ml-[-5px] bg-lime-50 rounded-full"><img src="/src/assets/emoji.png" alt=""></div>
                     <div class="aspect-square w-6 h-6 ml-[-5px] bg-lime-50 rounded-full"><img src="/src/assets/emoji.png" alt=""></div>
                     <div class="aspect-square w-6 h-6 ml-[-5px] bg-lime-50 rounded-full"><img src="/src/assets/emoji.png" alt=""></div>
@@ -33,11 +33,11 @@
                     <div class="aspect-square w-6 h-6 ml-[-5px] bg-lime-50 rounded-full"><img src="/src/assets/emoji.png" alt=""></div>
                     <div class="aspect-square w-6 h-6 ml-[-5px] bg-gray-100 rounded-full text-[12px] pt-[3px]">+99</div>
                 </div>
-                <Progress class="bg-lime-100 w-40" :model-value="50"/>
+                <Progress class="bg-lime-100 w-40 xl:w-45" :model-value="50"/>
                 <h2 class="font-semibold text-2xl">4.533/9.000</h2>
             </div>
         </div>
-        <div class="flex flex-col gap-1 px-[3%] mt-6">
+        <div class="flex flex-col gap-1 xl:gap-0 px-[3%] mt-6">
             <div class="flex justify-between">
                 <h3 class="font-semibold text-md"><span class="text-2xl">Roadmap</span> (Coming Soon)</h3>
                 <div class="bg-slate-50 rounded-full flex gap-3 w-16 justify-center items-center">
@@ -49,7 +49,7 @@
             <div class="flex gap-3 mt-6">
                 <div class="flex flex-col items-center gap-1">
                     <div>
-                        <Avatar class="w-8 h-8 bg-lime-400">
+                        <Avatar class="w-8 h-8 xl:w-12 xl:h-12 bg-lime-400">
                             <AvatarImage class="mt-[3px]" src="/src/assets/emoji.png" alt="@unovue" />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
@@ -64,7 +64,7 @@
             <div class="flex gap-3 mt-1">
                 <div class="flex flex-col items-center gap-1">
                     <div>
-                        <Avatar class="w-8 h-8 bg-lime-400">
+                        <Avatar class="w-8 h-8 xl:w-12 xl:h-12 bg-lime-400">
                             <AvatarImage class="mt-[3px]" src="/src/assets/emoji.png" alt="@unovue" />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
@@ -82,7 +82,7 @@
             <div class="flex gap-3 mt-1">
                 <div class="flex flex-col items-center gap-1">
                     <div>
-                        <Avatar class="w-8 h-8 bg-lime-400">
+                        <Avatar class="w-8 h-8 xl:w-12 xl:h-12 bg-lime-400">
                             <AvatarImage class="mt-[3px]" src="/src/assets/emoji.png" alt="@unovue" />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
@@ -101,7 +101,7 @@
             <div class="flex gap-3 mt-3">
                 <div class="flex flex-col items-center gap-1">
                     <div>
-                        <Avatar class="w-8 h-8 bg-lime-400">
+                        <Avatar class="w-8 h-8 xl:w-12 xl:h-12 bg-lime-400">
                             <AvatarImage class="mt-[3px]" src="/src/assets/emoji.png" alt="@unovue" />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
