@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input'
         <div class="border-2 pt-2 pb-2">
             <div class="flex flex-row justify-between items-center mr-16 ml-16">
                 <!-- Nav bar -->
-                <div class="">
+                <div class="mr-8 ml-8">
                     <ul class="flex flex-row items-center gap-3">
                         <router-link to="/settings" class="text-[#1E293B] font-medium rounded-md pr-3 pl-3 pt-2 pb-2">
                             <i class="fa-solid fa-gear"></i>
