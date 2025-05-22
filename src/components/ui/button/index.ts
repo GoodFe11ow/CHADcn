@@ -7,14 +7,11 @@ export const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default:
-          'bg-primary text-primary-foreground shadow-xs hover:bg-primary/90',
-        destructive:
-          'bg-destructive text-white shadow-xs hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60',
-        outline:
-          'border  bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50',
-        secondary:
-          'bg-secondary cursor-pointer rounded-none bg-[#F1F5F9] hover:bg-[#e4eaf1]',
+        default: 'bg-primary text-primary-foreground shadow-xs hover:bg-primary/90',
+        destructive: 'bg-destructive text-white shadow-xs hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60',
+        outline: 'border  bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50',
+        secondary: 'bg-secondary cursor-pointer rounded-none bg-[#F1F5F9] hover:bg-[#e4eaf1]',
+        ghost: 'bg-transparent hover:bg-gray-100 text-gray-900 dark:text-gray-100', 
         link: 'text-primary underline-offset-4 hover:underline',
         imageCard: 'w-[42px] h-[42px] gap-2 top-[125px] left-[296px] rounded-[6px] border p-2 bg-white hover:bg-gray-200 cursor-pointer',
       },
@@ -31,5 +28,6 @@ export const buttonVariants = cva(
     },
   },
 )
+
 
 export type ButtonVariants = VariantProps<typeof buttonVariants>
