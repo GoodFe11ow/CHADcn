@@ -16,6 +16,7 @@ export const buttonVariants = cva(
         secondary:
           'bg-secondary cursor-pointer rounded-none bg-[#F1F5F9] hover:bg-[#e4eaf1]',
         link: 'text-primary underline-offset-4 hover:underline',
+        campaign: 'border-[#F7FEE7] bg-[#D9F99D]',
         imageCard: 'w-[42px] h-[42px] gap-2 top-[125px] left-[296px] rounded-[6px] border p-2 bg-white hover:bg-gray-200 cursor-pointer',
       },
       size: {

@@ -1,9 +1,10 @@
 <template>
-  <CampaignSubheader />
-
+  <overviewSubheader />
+  <OverviewHeading />
   <footer />
 </template>
 
 <script setup>
-import CampaignSubheader from '@/components/campaignSubheader.vue';
+import OverviewHeading from '@/components/overviewHeading.vue';
+import overviewSubheader from '@/components/overviewSubheader.vue';
 </script>
