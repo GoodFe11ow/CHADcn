@@ -34,7 +34,7 @@
                     <div class="aspect-square w-6 h-6 ml-[-5px] bg-gray-100 rounded-full text-[12px] pt-[3px]">+99</div>
                 </div>
                 <Progress class="bg-lime-100 w-40 xl:w-45" :model-value="50"/>
-                <h2 class="font-semibold text-2xl">4.533/9.000</h2>
+                <h2 class="font-semibold text-xl xl:text-2xl">4.533/9.000</h2>
             </div>
         </div>
         <div class="flex flex-col gap-1 xl:gap-0 px-[3%] mt-6">
