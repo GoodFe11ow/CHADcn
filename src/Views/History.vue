@@ -1,12 +1,9 @@
-<template>
-  <historySubheader />
-  <historyHeading />
-  <historyGrid />
-  <footer />
-</template>
-
 <script setup>
-import historyGrid from '@/components/historyGrid.vue';
-import historyHeading from '@/components/historyHeading.vue';
-import historySubheader from '@/components/historySubheader.vue';
+import Footer from '../components/Footer.vue'
+
 </script>
+
+<template>
+  <Footer />
+
+</template>
