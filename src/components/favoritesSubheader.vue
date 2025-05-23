@@ -21,7 +21,7 @@ import { Input } from '@/components/ui/input'
                             <i class="fa-regular fa-heart"></i>
                             Favorites
                         </router-link>
-                        <router-link to="/history" class="text-[#1E293B] font-medium rounded-md pr-3 pl-3 pt-2 pb-2">
+                        <router-link to="/" class="text-[#1E293B] font-medium rounded-md pr-3 pl-3 pt-2 pb-2">
                             <i class="fa-regular fa-clock"></i>
                             History
                         </router-link>
