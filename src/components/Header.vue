@@ -20,7 +20,7 @@
       </div>
       <router-link to="/" :class="['py-2 px-4 rounded', isHomePage ? 'text-white' : 'text-gray-700']" class="cursor-pointer">Home</router-link>
       <router-link to="/explore" :class="['py-2 px-4 rounded', isHomePage ? 'text-white' : 'text-gray-700']" class="cursor-pointer">Explore</router-link>
-      <router-link to="/campaigns" :class="['py-2 px-4 rounded', isHomePage ? 'text-white' : 'text-gray-700']" class="cursor-pointer">Campaigns</router-link>
+      <router-link to="/campaing" :class="['py-2 px-4 rounded', isHomePage ? 'text-white' : 'text-gray-700']" class="cursor-pointer">Campaigns</router-link>
       <router-link to="/profile" :class="['py-2 px-4 rounded', isHomePage ? 'text-white' : 'text-gray-700']" class="cursor-pointer">Profile</router-link>
     </nav>
 

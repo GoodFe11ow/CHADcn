@@ -1,3 +1,7 @@
 <template>
-    <h1>this is template</h1>
+    <MyCampagnSubheader/>
 </template>
+
+<script setup>
+import MyCampagnSubheader from '@/components/myCampagnSubheader.vue';
+</script>
