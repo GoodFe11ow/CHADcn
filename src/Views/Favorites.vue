@@ -2,7 +2,6 @@
   <favoriteSubheader />
   <favoritesHeading />
   <favoritesGrid />
-  <footer />
 </template>
 
 <script setup>

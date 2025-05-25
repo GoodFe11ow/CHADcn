@@ -4,7 +4,6 @@
   <exploreNav />
   <exploreGrid />
   <explorePagination />
-  <Footer />
 </template>
 
 <script setup>

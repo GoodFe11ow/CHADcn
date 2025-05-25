@@ -2,7 +2,6 @@
   <historySubheader />
   <historyHeading />
   <historyGrid />
-  <footer />
 </template>
 
 <script setup>
