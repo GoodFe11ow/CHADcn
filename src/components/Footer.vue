@@ -1,7 +1,7 @@
 <script>
 </script>
 <template>
-    <div class="bg-[#F1F5F9] min-h-[418px] flex w-full relative bottom-0">
+    <div class="bg-[#F1F5F9] min-h-[418px] flex w-full relative bottom-0 pt-10 ">
         <div class="flex flex-col justify-evenly gap-[50px] w-full pl-[32px] pr-[32px] ">
             <div class="flex flex-row justify-evenly lg:justify-between flex-wrap gap-[48px] max-w-[1280px] w-full ml-auto mr-auto">
                 <div class="flex flex-col gap-4">

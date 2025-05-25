@@ -1,5 +1,4 @@
 <template>
-    <MyCampagnSubheader/>
 </template>
 
 <script setup>
