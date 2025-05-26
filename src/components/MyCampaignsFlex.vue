@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-wrap gap-5 px-6">
+    <div class="flex flex-wrap gap-5 px-6 pb-6">
         <MyCampaignsBankCard 
             v-for="(a, i) in bank_data"
             :key="i"
