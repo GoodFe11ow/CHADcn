@@ -6,12 +6,12 @@
                 <MyCampaignsNav />
                 <MyCampaignsFlex />
                 <div class="py-7 px-6 flex justify-between border-t-1">
-                    <Button variant="ghost" class="text-lime-600 cursor-pointer">Need help?</Button>
+                    <Button variant="ghost" class="text-lime-600 cursor-pointer hover:bg-gray-100">Need help?</Button>
                     <Button variant="outline" class="cursor-pointer">Manage campagins</Button>
                 </div>
             </div>
             <div>
-                <div></div>
+                <MyCampaignsStatistic />
             </div>
         </div>
         <div>
@@ -21,6 +21,7 @@
 </template>
 
 <script setup>
+    import MyCampaignsStatistic from './MyCampaignsStatistic.vue';
     import { Button } from './ui/button';
     import MyCampaignsFlex from './MyCampaignsFlex.vue';
     import MyCampaignsNav from './MyCampaignsNav.vue';
