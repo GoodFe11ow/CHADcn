@@ -1,7 +1,7 @@
 <template>
     <myCampagnSubheader />
-    <div>
-        <div class="w-[936px] m-auto">
+    <div class="mb-6 flex gap-10 justify-center">
+        <div class="w-[936px]">
             <div class=" border-1 border-gray-200 rounded-[12px] mb-6">
                 <MyCampaignsNav />
                 <MyCampaignsFlex />
@@ -14,13 +14,22 @@
                 <MyCampaignsStatistic />
             </div>
         </div>
-        <div>
-
+        <div class="w-[240px]">
+           <div class="flex mb-6">
+                <p class="grow text-lg font-semibold">Activity</p>
+                <p class="font-semibold text-gray-600">View all</p>
+           </div>
+           <div class="flex flex-col gap-5">
+                <activityItem 
+                v-for="i in 9" :key="i"
+                />
+           </div> 
         </div>
     </div>
 </template>
 
 <script setup>
+    import activityItem from './activityItem.vue';
     import MyCampaignsStatistic from './MyCampaignsStatistic.vue';
     import { Button } from './ui/button';
     import MyCampaignsFlex from './MyCampaignsFlex.vue';
