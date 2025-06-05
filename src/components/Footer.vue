@@ -39,7 +39,7 @@
                     </p>
                     <ul class="flex flex-col gap-3">
                         <router-link to="/" class="text-[#475569] hover:text-[#84CC16] font-medium transition">Settings</router-link>
-                        <router-link to="/" class="text-[#475569] hover:text-[#84CC16] font-medium transition">Notifications</router-link>
+                        <router-link to="/notifications" class="text-[#475569] hover:text-[#84CC16] font-medium transition">Notifications</router-link>
                     </ul>
                 </div>
                 <div class="flex flex-col gap-4 ">

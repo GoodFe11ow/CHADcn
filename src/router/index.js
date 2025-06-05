@@ -5,6 +5,7 @@ import Campaign from '../Views/Campaign.vue';
 import Profile from '../Views/Profile.vue'
 import Favorites from '../Views/Favorites.vue'
 import History from '../Views/History.vue'
+import Notifications from '../Views/Notifications.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -13,6 +14,7 @@ const routes = [
   { path: '/profile', component: Profile},
   { path: '/favorites', component: Favorites},
   { path: '/history', component: History},
+  { path: '/notifications', component: Notifications},
 ]
 const router = createRouter({
   history: createWebHistory(),
