@@ -10,7 +10,7 @@
         :percentage="a.percentage"
         :price="a.price"
       />
- </div>
+  </div>
 </template>
 
 <script setup>
