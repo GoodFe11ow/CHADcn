@@ -18,7 +18,9 @@ export const buttonVariants = cva(
         link: 'text-primary cursor-pointer underline-offset-4 hover:underline',
         campaign: 'border-[#F7FEE7] cursor-pointer bg-[#D9F99D]',
         readmore: 'cursor-pointer underline',
-        support: 'cursor-pointer  w-fit bg-white border',
+        donate: 'cursor-pointer bg-green ',
+        contract: 'cursor-pointer bg-white border w-[91px] h-[40px] text-center text-[#475467]',
+        showMore: 'cursor-pointer bg-white border w-[108px] h-[40px] text-center text-[#475467]',
         imageCard: 'w-[42px] h-[42px] gap-2 top-[125px] left-[296px] rounded-[6px] border p-2 bg-white hover:bg-gray-200 cursor-pointer',
       },
       size: {
